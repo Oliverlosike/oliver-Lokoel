@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Oliver Lokoel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Oliver Lokoel</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section id="home" class="hero fade-in">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Oliver Lokoel</span></h1>
+    <p>Web Developer, Digital Skills Trainer, Entrepreneur, Filmmaker, Video Editor & Content Creator</p>
+
+    <div class="buttons">
+      <!-- Button triggers modal -->
+      <a href="#" id="viewWorkBtn" class="btn">View My Work</a>
+
+      <!-- Call button -->
+      <a href="tel:+254799567910" class="btn call-btn">📞 Call Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== MODAL SECTION ====== -->
+<div id="workModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <iframe 
+      src="https://drive.google.com/drive/folders/1qpVBT0lh4AIWEobtxOgzXR21-7OTo0tT?usp=sharing" 
+      frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<section id="about" class="about fade-in">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <div class="about-image">
+      <img src="images/profile.jpg" alt="Profile photo">
+    </div>
+    <div class="about-text">
+      <p>
+        Hi, I’m <strong>Oliver Lokoel</strong> a passionate web developer, Digital skills trainer, filmaker, video editor and content creator
+        dedicated to building interactive, responsive, and meaningful digital experiences. 
+        My focus is on front-end development, UI/UX design, and visual storytelling that inspires connection.
+      </p>
+      <p>
+        Beyond coding and content creation, I’m constantly exploring new tools and trends to stay ahead 
+        in the tech and creative world. Every project is a chance to learn, grow, and innovate.
+      </p>
+      <a href="documents/cv.pdf" class="download-btn" download>Download My CV</a>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Skills Section -->
+<section id="skills" class="skills fade-in">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <img src="images/web.jpeg" alt="Web Development">
+      <p>Web Development</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/photoshop.jpeg" alt="Photoshop">
+      <p>Photoshop</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/customer.jpeg" alt="Video editing">
+      <p>Video Editing</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/admin.jpeg" alt="System Admin">
+      <p>System Admin</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/drupal-cms.jpg" alt="Drupal CMS">
+      <p>Drupal CMS</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/videography.jpeg" alt="Videography">
+      <p>Videography</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/digital.jpeg" alt="Digital Literacy">
+      <p>Digital Skills Trainer</p>
+    </div>
+    <div class="skill-card">
+      <img src="images/photo.jpeg" alt="Photography">
+      <p>Photography</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects fade-in">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <img src="projects/project1.jpg" alt="Personal portfolio">
+      <h3>Portfolio Website</h3>
+      <p>A clean personal website showcasing my skills and creative work likely black and white photography projects.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/drupal.png" alt="Drupal Module">
+      <h3>Drupal Module</h3>
+      <p>A custom Drupal 10 module developed to display live data.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/uiux.jpg" alt="Website Redesign">
+      <h3>Website Redesign</h3>
+      <p>Modern UI redesign for a small business website.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/social.jpeg" alt="Social Media Management">
+      <h3>Social Media Management</h3>
+      <p>Managing social media accounts for small businesses and large scales.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/commerce.jpeg" alt="E-commerce website">
+      <h3>E-commerce Website</h3>
+      <p>Created a responsive e-commerce website for a fashion and clothing shop.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/film.jpeg" alt="Video Production">
+      <h3>Video Production</h3>
+      <p>Filmed, edited, and produced promotional content.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience fade-in">
+  <h2>Experience</h2>
+
+  <div class="timeline-container">
+
+    <!-- Left Column -->
+    <div class="timeline-column left-column">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Full stack Developer – Apprentice- COCOMORE</h3>
+          <span class="timeline-date">2024 – 2025</span>
+          <p>Designing and building responsive websites, creating modern UI layouts, and optimizing user interactions. Worked with HTML, CSS, JavaScript, and Drupal.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Social Media Manager</h3>
+          <span class="timeline-date">2020 – 2022</span>
+          <p>Managed social media accounts, created content calendars, grew audience engagement, and improved brand visibility.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Freelancer Photographer- Startup lions Asset Kenya</h3>
+          <span class="timeline-date">2023 – 2024</span>
+          <p>Captured high-quality images for events, portraits, and creative digital projects.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="timeline-column right-column">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Videographer & Editor – IchwaVisuals</h3>
+          <span class="timeline-date">2021 – Present</span>
+          <p>Shooting and editing cinematic videos for events, businesses, and online content. Specialized in transitions and color grading.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Digital Skills Trainer- Learning Lions</h3>
+          <span class="timeline-date">2023 – 2025</span>
+          <p>Delivered hands-on training in digital literacy, web development, and creative tools. Guided learners through projects and mentorship.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>ICT TECH Consultant- Startup Lions</h3>
+          <span class="timeline-date">2023 – 2025</span>
+          <p>Provided technical assistance, troubleshooting hardware, software, and network issues. Improved system reliability and productivity.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+ <!-- Contact Section -->
+<section id="contact" class="contact fade-in">
+  <h2>Contact Me</h2>
+
+  <div class="contact-container">
+
+    <!-- Contact Form -->
+    <div class="contact-box form-box">
+      <h3>Send Me a Message</h3>
+      <form action="https://formsubmit.co/oliverlokoel@gmail.com" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Phone Number">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+        <!-- Disable captcha -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- Redirect to thank you page -->
+        <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-box info-box">
+      <h3>Contact Info</h3>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>18-30501 Kabokorit, Kakuma, Kenya</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>oliverlokoel@gmail.com</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>+254 713 188 317</p>
+      </div>
+    </div>
+
+    <!-- Social Media -->
+    <div class="contact-box social-box">
+      <h3>Social Media</h3>
+      <div class="social-item">
+        <i class="fab fa-facebook"></i>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+      </div>
+      <div class="social-item">
+        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/ichwa_visuals?igsh=MW04MDh1eXZsaWsycg==" target="_blank">Instagram</a>
+      </div>
+      <div class="social-item">
+        <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/254713188317" target="_blank">WhatsApp</a>
+      </div>
+      <div class="social-item">
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/losike-oliver-6b2892225/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="social-item">
+        <i class="fab fa-youtube"></i>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="contact-box map-box">
+      <h3>Find Me</h3>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.799434751557!2d36.821946214753815!3d-1.2920654990580293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10f5020e3b33%3A0x7a2a0d2b5426425!2sNairobi!5e0!3m2!1sen!2ske!4v1700000000000"
+        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <footer class="footer">
+    <p class="p footer">© 2025 OliverLokoel | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
